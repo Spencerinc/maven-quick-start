@@ -1,14 +1,26 @@
 package clinic.programming.training;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Application {
 
-    public Application() {
-        System.out.println ("Inside Application - Constructor");
+	public Application() {
+	    System.out.println ("Inside Application - Constructor");
     }
 
-    // method main(): ALWAYS the APPLICATION entry point
+	public void greet() {
+		List<String> greetings = new ArrayList<>();
+		greetings.add("Hello");
+
+		for (String greeting : greetings) {
+			System.out.println("Greeting: " + greeting);
+		}
+	}
+
     public static void main (String[] args) {
     	System.out.println ("Starting Application - Main Method");
 		Application app = new Application();
+		app.greet();
     }
 }
