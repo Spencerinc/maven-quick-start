@@ -7,7 +7,9 @@
   <groupId>clinic.programming</groupId>
   <artifactId>maven-quick-start</artifactId>
   <version>3.0</version>
-  
+  <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.apache.commons</groupId>

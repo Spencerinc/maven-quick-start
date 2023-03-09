@@ -28,7 +28,7 @@ public class Application {
     	System.out.println ("Starting Application - Main Method");
 		Application app = new Application();
 		app.greet();
-		int count = app.countWords("I have four words");
+		int count = app.countWords("In Eclipse I have six words");
 		System.out.println("Word Count: " + count);
     }
 }
